@@ -126,6 +126,9 @@ USE_L10N = True
 
 USE_TZ = True
 
+#Cookies related
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+
 #Redircet for users who aren't logged in
 LOGIN_URL = 'rango:login'
 
